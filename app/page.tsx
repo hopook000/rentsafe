@@ -8,7 +8,7 @@ export default function Home() {
         padding: "16px 40px", borderBottom: "1px solid #eee", background: "white"
       }}>
         <span style={{ fontWeight: "bold", fontSize: "20px" }}>🔒 租安 RentSafe</span>
-        <a style={{
+        <a href="/records"style={{
           background: "#2563eb", color: "white", border: "none",
           padding: "10px 20px", borderRadius: "8px", cursor: "pointer", fontSize: "15px"
         }}>
@@ -27,7 +27,7 @@ export default function Home() {
         <p style={{ fontSize: "18px", color: "#555", marginBottom: "32px" }}>
           入住當天拍照記錄，退租時一鍵生成 PDF 報告，押金再也不怕被亂扣。
         </p>
-        <a style={{
+        <a href="/records"style={{
           background: "#2563eb", color: "white", border: "none",
           padding: "14px 32px", borderRadius: "10px", cursor: "pointer",
           fontSize: "17px", fontWeight: "bold"
